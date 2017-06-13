@@ -1,0 +1,31 @@
+body{
+   background-image: url(https://media.giphy.com/media/26tkmH4VvEh4m0jiU/source.gif);
+   /*background-size: 1920px 1080px;*/
+}
+h1{
+  color: #7592ff;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 100;
+  font-family: Calibri;
+}
+button{
+  display: inline-block;
+  float: left;
+  color: #7592ff;
+  height: 50px;
+  width: 350px;
+  background-color: #555555;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 100px;
+  font-family: Calibri;
+  font-size: 20px;
+}
+#count{
+  float: right;
+}
+#error{
+  position: relative;
+  left: 350px;
+}
