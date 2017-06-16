@@ -1,3 +1,4 @@
+
 body{
    background-image: url(https://media.giphy.com/media/26tkmH4VvEh4m0jiU/source.gif);
    /*background-size: 1920px 1080px;*/
@@ -5,7 +6,7 @@ body{
 h1{
   color: #7592ff;
   text-align: center;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 100;
   font-family: Calibri;
 }
@@ -13,19 +14,20 @@ button{
   display: inline-block;
   float: left;
   color: #7592ff;
-  height: 50px;
-  width: 350px;
+  height: auto;
+  width: 25%;
   background-color: #555555;
-  margin-left: 150px;
-  margin-right: 150px;
+  border-left: 40%;
+  border-right: 40%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
   margin-top: 100px;
   font-family: Calibri;
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 #count{
   float: right;
 }
 #error{
-  position: relative;
-  left: 350px;
+  margin-left: 37.5%
 }

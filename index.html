@@ -1,33 +1,24 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" href="style.css">
-		<title>Testdingens</title>
-		<script>
-			var kirschencount = 0;
 
-			function kirschenpfluecken(){
-			alert("Kirsche wurde gepflueckt");
-			kirschencount++;
-			}
-			function displayKirschen(){
-			alert("Kirschen  gepflueckt: "+kirschencount);
-			}
-			function throwError(){
-				var fenster=window.open("");
-				fenster.document.body.style.background='url("http://media2.giphy.com/media/ZmdErsWqppgMo/giphy.gif")';
-				fenster.confirm("It looks like you've got a problem.");
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Testdingens</title>
+	<script type="text/javascript" src="script.js">
 
-			}
-		</script>
-	</head>
-	<body>
-		<h1>Kirschenpfluecken</h1>
-		<button onclick = "javascript:kirschenpfluecken()">Kirsche pfluecken</button>
-		<button id="count"onclick = "javascript:displayKirschen()">Kirschenanzahl anzeigen</button>
-		<button id="error" onclick="javascript:throwError()">Error</button>
-		<script>kirschencount=prompt("Wieviele Kirschen haben Sie schon gepflueckt?");</script>
+	</script>
+</head>
 
-	</body>
+<body>
+  <h1>Kirschenpfluecken</h1>
+  <button onclick="javascript:kirschenpfluecken()">Kirsche pfluecken</button>
+  <button id="count" onclick="javascript:displayKirschen()">Kirschenanzahl anzeigen</button>
+  <button id="error" onclick="javascript:throwError()">Error</button>
+  <script>
+    kirschencount = prompt("Wieviele Kirschen haben Sie schon gepflueckt?");
+  </script>
+
+</body>
+
 </html>
 <!--/*https://media.giphy.com/media/3oKIPvQWkVBKRkPYJy/giphy.gif*/-->
