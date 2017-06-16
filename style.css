@@ -1,6 +1,9 @@
-
+html{
+  min-width: 720px;
+}
 body{
    background-image: url(https://media.giphy.com/media/26tkmH4VvEh4m0jiU/source.gif);
+   background-size: 50%;
    /*background-size: 1920px 1080px;*/
 }
 h1{
@@ -15,7 +18,9 @@ button{
   float: left;
   color: #7592ff;
   height: auto;
+  min-height: 50px;
   width: 25%;
+  min-width: 170px;
   background-color: #555555;
   border-left: 40%;
   border-right: 40%;
