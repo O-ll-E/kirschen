@@ -10,10 +10,7 @@ function displayKirschen() {
 }
 
 function throwError() {
-  var fenster = window.open("","deutschland",height="300px", width="300px");
+  var fenster = window.open("","",height="300px", width="300px");
   fenster.document.body.style.background = 'url("http://media2.giphy.com/media/ZmdErsWqppgMo/giphy.gif")';
   fenster.confirm("It looks like you've got a problem.");
-  /*while (true) {
-    window.open("","deutschland",height="300px", width="300px");
-  }*/
 }
