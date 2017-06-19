@@ -1,7 +1,6 @@
 @media only screen and (max-width:680px) {
   #error{
-    width: 720px;
-    height: 1200px;
+    display:none;
   }
 }
 html{
