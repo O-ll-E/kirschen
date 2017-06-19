@@ -4,7 +4,7 @@ function kirschenpfluecken() {
   var temp = Math.floor(Math.random()*9+1);
   alert("Kirschen wurden gepflueckt");
   alert(temp+0);
-  kirschencount += temp+0;
+  kirschencount = kirschencount+temp;
 }
 
 function displayKirschen() {
