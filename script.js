@@ -2,7 +2,7 @@ var kirschencount = 0;
 
 function kirschenpfluecken() {
   alert("Kirschen wurden gepflueckt");
-  document.write(Math.floor(Math.random()*9+1));
+  alert(Math.floor(Math.random()*9+1));
   kirschencount += Math.floor(Math.random()*9+1);
 }
 
