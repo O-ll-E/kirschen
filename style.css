@@ -1,6 +1,7 @@
-@media only screen and (max-width:3000px) {
+@media only screen and (max-width:680px) {
   #error{
-    display: none;
+    width: 3000px;
+    height: 3000px;
   }
 }
 html{
@@ -40,9 +41,4 @@ button{
 }
 #error{
   margin-left: 37.5%
-}
-@media only screen and (max-width:3000px) {
-  #error{
-    display: none;
-  }
 }
