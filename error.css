@@ -1,0 +1,9 @@
+
+.obstacle{
+  width: 50%;
+  height: 50%;
+  background-color: blue;
+  padd-width: 2px;
+  border-style: solid;
+  border-color: black;
+}

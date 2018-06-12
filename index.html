@@ -4,20 +4,26 @@
 <head>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="http://m-y-d-s.com/en/fruits/cherry/a.jpg">
-  <title>Kirschenpflücken</title>
+  <title>Kirschenpfluecken</title>
   <script type="text/javascript" src="script.js">
   </script>
 </head>
 
 <body>
   <h1>Kirschenpfluecken</h1>
-  <button onclick="javascript:kirschenpfluecken()">Kirschen pfluecken</button>
-  <button id="count" onclick="javascript:displayKirschen()">Kirschenanzahl anzeigen</button>
-  <button id="error" onclick="javascript:throwError()">Error</button>
-  <script>
-    kirschencount = prompt("Wieviele Kirschen haben Sie schon gepflueckt?");
-  </script>
 
+  <img src="https://www.smileybedeutung.com/img/whatsapp-smileys/pinke-kirschbluete-whatsapp-symbol-1F338.png" id="blüte">
+  <img src="https://www.smileybedeutung.com/img/whatsapp-smileys/pinke-kirschbluete-whatsapp-symbol-1F338.png" id="blüte2">
+  <div class="contain">
+    <button id="pick" onclick="javascript:kirschenpfluecken()">Kirschen pfluecken</button>
+
+    <button id="count" onclick="javascript:displayKirschen()">Kirschenanzahl anzeigen</button>
+
+    <button id="error" onclick="javascript:throwError()">Error</button>
+
+    <script>  init();  </script>
+
+  </div>
 </body>
 
 </html>

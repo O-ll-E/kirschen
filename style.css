@@ -1,43 +1,70 @@
-@media only screen and (min-width:680px) {
-  #error{
-    background-color: yellow;
-  }
-}
 html{
-  min-width: 720px;
+  margin:0;
+  height: 100%;
+  width: 100%;
 }
+
 body{
-   background-image: url(https://media.giphy.com/media/26tkmH4VvEh4m0jiU/source.gif);
-   background-size: 50%;
-   /*background-size: 1920px 1080px;*/
+  margin: 0;
+  width:100%;
+  min-height: 100%;
+  display: grid;
+  background-color:#ffaed7;
+
+  grid-template-rows: 1fr 5fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template:
+    "img header img2"
+    "body body body";
 }
+
 h1{
-  color: #33aa33;
+
+  grid-area: header;
   text-align: center;
-  font-size: 4rem;
-  font-weight: 100;
-  font-family: Calibri;
+  font-family: Arial;
+  font-size: 3em;
+  margin:auto;
+  color: #555555;
 }
-button{
-  display: inline-block;
-  float: left;
-  color: #aa3333;
-  height: auto;
-  min-height: 50px;
-  width: 25%;
-  min-width: 170px;
-  background-color: #555555;
-  border-left: 40%;
-  border-right: 40%;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
-  margin-top: 100px;
-  font-family: Calibri;
-  font-size: 1.5rem;
+
+.contain{
+  grid-area: body;
+/*  background-color: #aeffff;
+  */display: grid;
+  min-height:100%;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template:
+    ". . . . ."
+    ". b1 . b2 ."
+    ". . . . ."
+    ". . b3 . ."
+    ". . . . .";
+}
+#pick{
+  grid-area: b1;
+  color:#0000ff;
+  background-color: #aeffff;
 }
 #count{
-  float: right;
+  grid-area: b2;
+  color:#ff4400;
+  background-color: #aeffff;
 }
 #error{
-  margin-left: 37.5%
+  grid-area: b3;
+  color:#00ff00;
+  background-color: #aeffff;
+}
+#blüte{
+  grid-area: img;
+  margin-left: 40%;
+  margin-top: 30%;
+}
+#blüte2{
+  grid-area: img2;
+  margin-left: 25%;
+  margin-top: 30%;
 }
