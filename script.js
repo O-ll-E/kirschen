@@ -4,6 +4,7 @@ function init(){
   kirschencount = prompt("Wieviele Kirschen haben Sie schon gepflueckt?");
   kirschencount = Number(kirschencount);
   if (isNaN(kirschencount)) {
+    alert("Das habe ich leider nicht verstanden");
     kirschencount = 0;
     return;
   }
