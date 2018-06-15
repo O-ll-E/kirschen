@@ -5,8 +5,8 @@ function init(){
   kirschencount = Number(kirschencount);
   if (isNaN(kirschencount)) {
     alert("Das habe ich leider nicht verstanden");
-    kirschencount = 0;
     init();
+    kirschencount = 0;
   }
 }
 
