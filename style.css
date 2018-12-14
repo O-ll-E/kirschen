@@ -60,11 +60,15 @@ h1{
 }
 #blüte{
   grid-area: img;
+  height: 400px;
+  width: 400px;
   margin-left: 40%;
   margin-top: 30%;
 }
 #blüte2{
   grid-area: img2;
-  margin-left: 25%;
+  height: 400px;
+  width: 400px;
+  margin-left: -10%;
   margin-top: 30%;
 }
