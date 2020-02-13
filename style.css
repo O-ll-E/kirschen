@@ -9,7 +9,8 @@ body{
   width:100%;
   min-height: 100%;
   display: grid;
-  background-color:#ffaed7;
+  /*background-color:#ffaed7;*/
+  background-image: radial-gradient(circle at left top,hsl(342.9, 76.6%, 63.1%), hsl(344.1, 64%, 80.4%));
 
   grid-template-rows: 1fr 5fr;
   grid-template-columns: 1fr 1fr 1fr;
@@ -25,7 +26,9 @@ h1{
   font-family: Arial;
   font-size: 3em;
   margin:auto;
-  color: #555555;
+  letter-spacing: 0.05em;
+  font-weight: 100;
+  color: #ffc0c0;
 }
 
 .contain{
